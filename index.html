@@ -4,22 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Site header-->
     <header class="page-header">
-      <nav class="site-nav">
-        <a href="index.html" class="logo"> <span>Web</span> Studio </a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+      <nav>
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span> Studio</a
+        >
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link">Studio</a></li>
+          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+          <li><a href="" class="link">Contacts</a></li>
         </ul>
       </nav>
 
       <!--Contacts-->
-      <ul>
+      <ul class="contacts list">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
@@ -27,37 +33,37 @@
 
     <main>
       <!--Hero-->
-      <section class="section">
-        <h1>Effective solutions for your business</h1>
-        <button>Order service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective solutions<br />for your business</h1>
+        <button class="hero-button">Order service</button>
       </section>
 
       <!--Features-->
-      <section class="section">
-        <h2>Our advantages</h2>
-        <ul>
+      <section class="section features">
+        <h2 class="section-title">Our advantages</h2>
+        <ul class="list">
           <li>
-            <h3>Attention to details</h3>
+            <h3 class="features-item">Attention to details</h3>
             <p>
               Ideological considerations, as well as the beginning of everyday
               work on position formation.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
+            <h3 class="features-item">Punctuality</h3>
             <p>
               The task of the organization, especially the scope and place of
               training entails.
             </p>
           </li>
           <li>
-            <h3>Planning</h3>
+            <h3 class="features-item">Planning</h3>
             <p>
               Likewise, consultation with a broad asset is largely a condition.
             </p>
           </li>
           <li>
-            <h3>Modern technologies</h3>
+            <h3 class="features-item">Modern technologies</h3>
             <p>
               The significance of these problems is so obvious that the
               implementation of planned targets.
@@ -68,8 +74,8 @@
 
       <!--What are we doing-->
       <section class="section">
-        <h2>What are we doing</h2>
-        <ul>
+        <h2 class="section-title">What are we doing</h2>
+        <ul class="works list">
           <li>
             <img
               src="./images/box-1.jpg"
@@ -77,7 +83,7 @@
               height="294"
               alt="Computer"
             />
-            <h3>Desktop applications</h3>
+            <h3 class="title">Desktop applications</h3>
           </li>
           <li>
             <img
@@ -86,7 +92,7 @@
               height="294"
               alt="Cellphone"
             />
-            <h3>Mobile applications</h3>
+            <h3 class="title">Mobile applications</h3>
           </li>
           <li>
             <img
@@ -95,15 +101,15 @@
               height="294"
               alt="Monitor"
             />
-            <h3>Design solutions</h3>
+            <h3 class="title">Design solutions</h3>
           </li>
         </ul>
       </section>
 
       <!--Team-->
       <section class="section">
-        <h2>Our team</h2>
-        <ul>
+        <h2 class="section-title">Our team</h2>
+        <ul class="team list">
           <li>
             <img
               src="./images/team-1.jpg"
@@ -111,9 +117,9 @@
               height="260"
               alt="Product Designer"
             />
-            <h3>Nikolay Kucherenko</h3>
-            <p>Product Designer</p>
-            <ul>
+            <h3 class="title">Nikolay Kucherenko</h3>
+            <p class="profession">Product Designer</p>
+            <ul class="list">
               <li><a href="#" aria-label="Instagram Link">Instagram</a></li>
               <li><a href="#" aria-label="Twitter Link">Twitter</a></li>
               <li><a href="#" aria-label="Facebook Link">Facebook</a></li>
@@ -128,9 +134,9 @@
               height="260"
               alt="Frontend Developer"
             />
-            <h3>Olga Ivanova</h3>
-            <p>Frontend Developer</p>
-            <ul>
+            <h3 class="title">Olga Ivanova</h3>
+            <p class="profession">Frontend Developer</p>
+            <ul class="list">
               <li><a href="#" aria-label="Instagram Link">Instagram</a></li>
               <li><a href="#" aria-label="Twitter Link">Twitter</a></li>
               <li><a href="#" aria-label="Facebook Link">Facebook</a></li>
@@ -145,9 +151,9 @@
               height="260"
               alt="Marketing"
             />
-            <h3>Andrey Shevchenko</h3>
-            <p>Marketing</p>
-            <ul>
+            <h3 class="title">Andrey Shevchenko</h3>
+            <p class="profession">Marketing</p>
+            <ul class="list">
               <li><a href="#" aria-label="Instagram Link">Instagram</a></li>
               <li><a href="#" aria-label="Twitter Link">Twitter</a></li>
               <li><a href="#" aria-label="Facebook Link">Facebook</a></li>
@@ -162,9 +168,9 @@
               height="260"
               alt="UI Designer"
             />
-            <h3>Ivan Nikolaev</h3>
-            <p>UI Designer</p>
-            <ul>
+            <h3 class="title">Ivan Nikolaev</h3>
+            <p class="profession">UI Designer</p>
+            <ul class="list">
               <li><a href="#" aria-label="Instagram Link">Instagram</a></li>
               <li><a href="#" aria-label="Twitter Link">Twitter</a></li>
               <li><a href="#" aria-label="Facebook Link">Facebook</a></li>
@@ -176,8 +182,8 @@
 
       <!--Clients-->
       <section class="section">
-        <h2>Regular customers</h2>
-        <ul>
+        <h2 class="section-title">Regular customers</h2>
+        <ul class="list">
           <li>Client 1</li>
           <li>Client 2</li>
           <li>Client 3</li>
@@ -191,19 +197,30 @@
     <!--Footer-->
     <footer>
       <div>
-        <a href="./index.html" class="logo""> <span>Web</span> Studio</a>
-        <address>
-          <ul>
-            <li>Kiev, avenue Lesya Ukrainka, 26</li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span
+          ><span class="logo-studio"> Studio</span>
+        </a>
+        <address class="address">
+          <ul class="list">
+            <li class="address-map">Kiev, avenue Lesya Ukrainka, 26</li>
+            <li>
+              <a href="mailto:info@example.com" class="address-contacts"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380991111111" class="address-contacts"
+                >+38 099 111 11 11</a
+              >
+            </li>
           </ul>
         </address>
       </div>
 
       <div>
-        <b>Join us</b>
-        <ul>
+        <b class="auth">Join us</b>
+        <ul class="list">
           <li><a href="#" aria-label="Instagram Link">Instagram</a></li>
           <li><a href="#" aria-label="Twitter Link">Twitter</a></li>
           <li><a href="#" aria-label="Facebook Link">Facebook</a></li>
@@ -212,7 +229,7 @@
       </div>
 
       <div>
-        <b>Sign up for the newsletter</b>
+        <b class="auth">Sign up for the newsletter</b>
         <input type="text" />
         <button type="submit">Subscribe</button>
       </div>

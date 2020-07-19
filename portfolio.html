@@ -4,22 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!--Site header-->
     <header>
       <nav>
-        <a href="./index.html"> <span>Web</span> Studio </a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span> Studio</a
+        >
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link">Studio</a></li>
+          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+          <li><a href="" class="link">Contacts</a></li>
         </ul>
       </nav>
 
       <!--Contacts-->
-      <ul>
+      <ul class="contacts list">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
@@ -28,26 +35,26 @@
     <main>
       <!--Portfolio-->
       <section class="section">
-        <h1>Portfolio</h1>
-        <ul class="works-filter">
+        <h1 class="section-title">Portfolio</h1>
+        <ul class="works-filter list">
           <li>
-            <button>All</button>
+            <button type="button">All</button>
           </li>
           <li>
-            <button>Web sites</button>
+            <button type="button">Web sites</button>
           </li>
           <li>
-            <button>Applications</button>
+            <button type="button">Applications</button>
           </li>
           <li>
-            <button>Design</button>
+            <button type="button">Design</button>
           </li>
           <li>
-            <button>Marketing</button>
+            <button type="button">Marketing</button>
           </li>
         </ul>
 
-        <ul>
+        <ul class="list">
           <li>
             <a href="">
               <p>
@@ -196,7 +203,7 @@
               />
               <h2>Growing Business</h2>
               <p>Application</p>
-              <p>
+              <p class="...-description">
                 Technokryak is a modern platform for the spread of coronavirus.
                 Companies use this platform for digital espionage and attacks on
                 competitors' secure servers.
@@ -208,21 +215,32 @@
     </main>
 
     <!--Footer-->
-    <footer>
+    <footer class="footer">
       <div>
-        <a href="/"> <span>Web</span> Studio</a>
-        <address>
-          <ul>
-            <li>Kiev, avenue Lesya Ukrainka, 26</li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span
+          ><span class="logo-studio"> Studio</span></a
+        >
+        <address class="address">
+          <ul class="list">
+            <li class="address-map">Kiev, avenue Lesya Ukrainka, 26</li>
+            <li>
+              <a href="mailto:info@example.com" class="address-contacts"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380991111111" class="address-contacts"
+                >+38 099 111 11 11</a
+              >
+            </li>
           </ul>
         </address>
       </div>
 
       <div>
-        <b>Join us</b>
-        <ul>
+        <b class="auth">Join us</b>
+        <ul class="list">
           <li><a href="#" aria-label="Instagram Link">Instagram</a></li>
           <li><a href="#" aria-label="Twitter Link">Twitter</a></li>
           <li><a href="#" aria-label="Facebook Link">Facebook</a></li>
@@ -231,7 +249,7 @@
       </div>
 
       <div>
-        <b>Sign up for the newsletter</b>
+        <b class="auth">Sign up for the newsletter</b>
         <input type="text" />
         <button type="submit">Subscribe</button>
       </div>
