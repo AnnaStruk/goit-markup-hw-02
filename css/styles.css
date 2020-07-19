@@ -104,22 +104,23 @@ body {
 }
 
 /* Features */
-.features-item {
-  color: var(--title-text-color);
+.features-item,
+.works .title,
+.auth {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
+.features-item {
+  color: var(--title-text-color);
+}
+
 /* Works */
 .works .title {
   color: var(--white-color);
   background-color: var(--footer-bg-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
 }
 
 /* Team */
@@ -157,13 +158,9 @@ footer {
 
 .auth {
   color: var(--white-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
 }
 
-/* Button */
+/* Portfolio Button */
 .button {
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
