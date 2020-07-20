@@ -73,6 +73,10 @@ body {
   text-decoration: none;
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -84,18 +88,23 @@ body {
 /* Hero */
 .hero {
   background-color: var(--footer-bg-color);
+  text-align: center;
+}
+
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
 }
 
-.hero-button {
+.hero-button,
+.submit-button {
   color: var(--white-color);
   background-color: var(--accent-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -164,6 +173,7 @@ footer {
 .button {
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
